@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "ChiLaMotExtensionVohai_DungXoaToi(^_^)",
+  "version": "1.0",
+
+  "icons": {
+    "512": "cooctus.png"
+  },
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "http://*/*", 
+    "https://*/*",
+    "tabs"
+  ],
+  
+  "incognito": "spanning"
+}
